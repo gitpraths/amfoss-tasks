@@ -1,2 +1,2 @@
 ## OpenDocs
-This repository is documentation of [React Todo List](doc:linking-to-pages#anchor-links) app
+This repository is documentation of [React Todo List](https://github.com/kabirbaidhya/react-todo-app) app
