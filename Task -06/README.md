@@ -43,8 +43,8 @@ Environment Variables if your project requires specific environment variables, c
 - **Tick Box:** Once the task is done, Click on the tick box and it will go to the completed tab
 
 ### Contribution Guidelines
-Reporting Issues: Please report any issues or bugs using the GitHub Issues tab.
-Submitting Pull Requests: Fork the repository, make your changes, and submit a pull request with a description of your changes.
+**Reporting Issues:** Please report any issues or bugs using the GitHub Issues tab.
+**Submitting Pull Requests:** Fork the repository, make your changes, and submit a pull request with a description of your changes.
 
 
 
