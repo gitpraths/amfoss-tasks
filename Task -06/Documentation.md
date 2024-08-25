@@ -77,8 +77,8 @@ In React ToDo App, each task is represented by:
 * `search(items, query)`
     * Further filters the list based on the search query.
 * Rendering:
-    * Passes the filtered and searched list to FilteredList for display.
-    * Includes Header, Footer, and Info components for user interaction and contextual information.
+    * Passes the filtered and searched list to `FilteredList` for display.
+    * Includes `Header`, `Footer`, and `Info` components for user interaction and contextual information.
 ## Forms
 InputWrapper
 * `props.addNew`
