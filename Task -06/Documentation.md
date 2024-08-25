@@ -89,20 +89,19 @@ InputWrapper
     * Reflects the current search query entered by the user.
 * `props.setSearchQuery`
     * Updates the search query based on user input.
-### Implementation Details
-## Task Creation
+## Implementation Details
+### Task Creation
 Tasks are created through the input field within the `InputWrapper` component in `Header.js`. The `addNew` function is called to process the input and add a new task to the list.
-## Task Listing
+### Task Listing
 Tasks are listed in the `TodoList.js` component by applying the filter and search query to the list prop. The filtered list is passed to the `FilteredList` component for rendering.
-## Task Update
+### Task Update
 Tasks can be updated by interacting with the list items in `FilteredList`. The changeStatus function is used to toggle the completion status of tasks.
-## Task Deletion
+### Task Deletion
 Tasks can be deleted using the functionality encapsulated within the list item components, where the changeStatus function is used to manage the task's state.
 
 # Code Example
 Here’s a snippet from the TodoList.js file showing how tasks are filtered and listed:
 ```
-### javascript
 import React from 'react';
 import Header from './Header';
 import FilteredList from './FilteredList';
