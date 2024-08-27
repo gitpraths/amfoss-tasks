@@ -7,14 +7,11 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext, CallbackQueryHandler, ConversationHandler
 from docx import Document
 
-# Your bot token and Google API key
 BOT_TOKEN = '6790370513:AAElipW4HYV6RLEq7bDEpF06dF1z0wfXv2k'
 GOOGLE_API_KEY = 'AIzaSyDnk0Y-6FEfGLYH7NqrBaue-7vAPS6HqzU'
 
-# Globals
 reading_list = []
 
-# States for conversation
 GENRE, BOOK_NAME, BOOK_DETAILS, BOOK_TO_DELETE = range(4)
 
 async def start(update: Update, context: CallbackContext):
@@ -38,7 +35,6 @@ async def handle_genre(update: Update, context: CallbackContext):
     genre = update.message.text
     books = fetch_books_by_genre(genre)
     
-    # Create CSV file
     csv_file = io.StringIO()
     csv_writer = csv.writer(csv_file)
     csv_writer.writerow(['Title', 'Author', 'Description', 'Preview Link'])
