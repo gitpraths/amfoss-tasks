@@ -27,6 +27,6 @@ With the help of `base64 -d <<<"base64_encoded_string"` command, I was able to d
 
 ### Part 5:
 I went through all the commits and found the encoded code in third commit
-With the help of `base64 -d <<<"base64_encoded_string"` command, I was able to decode the codes and got the link to to-see.... repo
+With the help of `base64 -d <<<"base64_encoded_string"` command, I was able to decode the codes and got the link to `to-see....` repo
 
 Finally, after defeating monsters and seeing stars I got Victory
