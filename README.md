@@ -11,7 +11,7 @@ I intend to be an active member of the club, engaging in new projects and seekin
 
 ## My Fields of Interest and How I Plan to Work on Them
 I am intersted in ML and Web Development. 
-- **Machine Learning:** I have been taking Adv ML course (Part 2) by Andrew NG and wish to improve my skills with the same
+- **Machine Learning:** I am planning on taking Adv ML course (Part 2) by Andrew NG and wish to improve my skills with the same
 - **Web Development:** I have designed and worked on multiple projects so far, and I am eager to continue improving my skills and expanding my expertise.
 
 In my free time, I enjoy reading books and dancing for fun. I also listen to True Crime podcasts daily.
