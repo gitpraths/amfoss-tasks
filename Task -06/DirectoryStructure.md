@@ -1,3 +1,4 @@
+```
 react-todo-app/
 ├── public/
 │   ├── favicon.ico
@@ -21,3 +22,4 @@ react-todo-app/
 ├── package.json
 ├── README.md
 └── yarn.lock
+```
