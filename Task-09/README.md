@@ -1,16 +1,33 @@
-# hero_encyclopaedia
+## Superheros Assemble
 
-A new Flutter project.
+This repo is of a Flutter app which allows you to search any superhero you want and provides info about the same.
 
-## Getting Started
+## Features
+- **User-Friendly Interface**: a simple layout that allows easy browsing of heroes.
+- **Search Functionality**: a search bar to find favorite heroes quickly.
+- **Hero Profiles**: Create detailed profiles with information such as superpowers, weaknesses, and their images.
 
-This project is a starting point for a Flutter application.
+## Resources
+- [Flutter Installation](https://docs.flutter.dev/get-started/install)
+- [Flutter Documentation](https://docs.flutter.dev/)
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
+**Clone the repository:**
+   ```bash
+ git clone https://github.com/gitpraths/amfoss-tasks.git
+ cd Task-09
+```
+**Install dependencies**: Ensure you have Flutter installed on your machine. Run the following command:
+`flutter pub get`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Run the application**: To run the application, use:
+`flutter run`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Data (JSON File)
+Make sure the JSON file containing the superhero data is located in the assets folder and is named `heroes.json`. Update your `pubspec.yaml` to include:
+```
+flutter:
+  assets:
+    - assets/heroes.json
+```
+
