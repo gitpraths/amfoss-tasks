@@ -7,8 +7,9 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext, CallbackQueryHandler, ConversationHandler
 from docx import Document
 
-BOT_TOKEN = '6790370513:AAElipW4HYV6RLEq7bDEpF06dF1z0wfXv2k'
-GOOGLE_API_KEY = 'AIzaSyDnk0Y-6FEfGLYH7NqrBaue-7vAPS6HqzU'
+BOT_TOKEN = ''
+GOOGLE_API_KEY = ''
+# Please add your Bot Token and API Key
 
 reading_list = []
 
